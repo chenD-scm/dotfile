@@ -1,1 +1,11 @@
-escape ^``
+escape ^Zz
+
+# Start at window 1
+bind c screen 1
+bind ^c screen 1
+bind 0 slect 10
+screen 1
+
+# Use 256 colors
+term screen-256color
+
